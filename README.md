@@ -36,14 +36,19 @@ www
     
     
 
+
 1) main.js
 require js를 통한 App 내에서 사용하기 위한 기본 모듈 설정 및, angular JS를 실행시키기 위한 실행부가 존재합니다.
+
 2) app.js
 Angular JS를 사용하기 위한 app.module 실행부가 존재합니다. app내의 설정도 같이 관리하게 됩니다.
+
 3) router.js
 Angular JS를 사용하기 위한 라우팅 기능을 하는 것으로써, 각 페이지 내의 controller들을 define 모듈을 통해 불러와야
 합니다.
+
 3) base
 controller, directive, service, filter를 로딩하기 위한 기본적인 base를 생성합니다. 모든 controller들은 이 base내의 모듈을 사용하여 각각의 모듈을 정의하게 됩니다.
+
 4) module
 App에서 사용하기 위한 페이지 내의 html파일 및 controller파일을 포함하고 있습니다.
