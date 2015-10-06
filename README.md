@@ -1,5 +1,4 @@
 # ionicRequireJS
-
 ionic + Require JS Modular
 --------------------------------------
 ionic service를 위한 Modular입니다.
