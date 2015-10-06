@@ -20,13 +20,13 @@ App 시작시에 각각의 디펜던시들을 로딩하고,
 을 실행하게 됩니다.
 
 구조는 다음과 같이 설계되었습니다.
-www/\n
-  /js\n
-    /base\n
-    /module\n
-    app.js\n
-    main.js\n
-    router.js\n
+www
+  js
+    base
+    module
+    app.js
+    main.js
+    router.js
     
 
 1) main.js
