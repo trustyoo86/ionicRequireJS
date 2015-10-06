@@ -19,13 +19,14 @@ App 시작시에 각각의 디펜던시들을 로딩하고,
 을 실행하게 됩니다.
 
 구조는 다음과 같이 설계되었습니다.
+
 www
 
   js
   
-    base
+    base(directory)
     
-    module
+    module(directory)
     
     app.js
     
